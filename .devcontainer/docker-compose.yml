@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  timescaledb:
+    image: timescale/timescaledb:latest-pg17
+    container_name: timescaledb
+    environment:
+      POSTGRES_HOST: timescaledb
+      POSTGRES_DB: minicurso_ev 
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescale_data:/var/lib/postgresql/data
+    networks:
+      - ev-network
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: smart-aqua-grafana
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_INSTALL_PLUGINS: ''
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - ev-network
+    depends_on:
+      - timescaledb
+    restart: unless-stopped
+
+  mqtt-explorer:
+    image: ghcr.io/thomasnordquist/mqtt-explorer:latest
+    container_name: mqtt-explorer
+    ports:
+      - "4000:3000"
+    environment:
+      - MQTT_EXPLORER_USERNAME=admin
+      - MQTT_EXPLORER_PASSWORD=admin
+    volumes:
+      - mqtt_explorer_data:/app/data
+    networks:
+      - ev-network
+    restart: unless-stopped
+
+  # entender melhor como funciona esse container de aplicação do codespaces
+  app:
+    image: mcr.microsoft.com/devcontainers/python:1-3.11-bullseye
+    volumes:
+      - .:/workspace:cached # Mapeia a pasta do código para dentro
+    command: sleep infinity # Mantém o container ligado para o aluno usar
+    networks:
+      - ev-network
+    # Variáveis de ambiente úteis para o script do aluno
+    environment:
+      - TIMESCALE_HOST=timescaledb
+
+volumes:
+  timescale_data:
+  grafana_data:
+  mqtt_explorer_data:
+
+networks:
+  ev-network:
+    driver: bridge
