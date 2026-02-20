@@ -11,8 +11,7 @@
                 "ms-python.python",           // Suporte a Python
                 "ms-python.debugpy",          // Debugger
                 "mtxr.sqltools",              // Cliente SQL Leve para ver o Timescale
-                "mtxr.sqltools-driver-pg",    // Driver Postgres para o SQLTools
-                "mechatroner.rainbow-csv"     // Visualizar CSVs (opcional, mas útil em dados)
+                "mtxr.sqltools-driver-pg"    // Driver Postgres para o SQLTools
             ],
             "settings": {
                 "python.defaultInterpreterPath": "/usr/local/bin/python"

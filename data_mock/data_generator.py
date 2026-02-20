@@ -51,9 +51,9 @@ def generate_payload(sat_id, state):
         packet_loss = random.uniform(2.0, 15.0)
         
     else: # CRITICAL
-        state["alt"] = state["alt"] - random.uniform(0.2, 1.0) 
+        state["alt"] = max(1.0, state["alt"] - random.uniform(0.2, 1.0))  # mínimo 1 km
         state["bat"] = max(0.0, state["bat"] - random.uniform(1.0, 2.5))
-        state["temp"] = state["temp"] + random.gauss(1.5, 3.0) 
+        state["temp"] = min(199.0, state["temp"] + random.gauss(1.5, 3.0))  # máximo 199°C
         state["fuel"] = max(0.0, state["fuel"] - random.uniform(0.1, 0.5))
         error_code = random.choice([404, 500, 503, 999])
         status_flag = "ERROR"
@@ -92,10 +92,10 @@ def generate_payload(sat_id, state):
         },
         "payload_sensors": { # Sensores da missão (Recursos Hídricos)
             "soil_moisture_index": round(random.uniform(0.0, 1.0), 3) if status_flag != "ERROR" else None,
-            "surface_water_area_sqkm": random.randint(1000, 50000) if status_flag == "OK" else None,
+            "surface_water_area_sqkm": random.randint(1000, 50000) if status_flag == "OK" else 0,
             "algae_bloom_index": round(random.uniform(0.0, 100.0), 1),
             "sea_surface_salinity_psu": round(random.gauss(35.0, 2.0), 2),
-            "ice_thickness_m": round(random.uniform(0.0, 3.5), 2) if abs(state["lat"]) > 60 else 0.0
+            "ice_thickness_m": round(random.uniform(0.0, 3.5), 2) if abs(state["lat"]) > 60 else None
         },
         "diagnostics": {
             "cpu_usage_pct": random.randint(10, 95) if state["status"] != "OPTIMAL" else random.randint(10, 30),
@@ -118,7 +118,7 @@ async def publish_telemetry():
                         await client.publish(topic, payload=json.dumps(payload), qos=1)
                         logging.info(f"[{sat_id}] Publicado - Bat: {payload['telemetry']['power']['battery_level_pct']}% | Status: {state['status']}")
                 
-                await asyncio.sleep(1) # Intervalo de 1 segundo entre as leituras da constelação
+                await asyncio.sleep(0.3) # Intervalo de 0.3 segundo entre as leituras da constelação
                 
     except Exception as e:
         logging.error(f"Erro: {e}")
