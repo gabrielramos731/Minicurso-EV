@@ -12,19 +12,21 @@ def parse_payload(message):
     except json.JSONDecodeError:
         raise ValueError('Integridade Falhou: arquivo JSON inválido')
 
-    resultado = {}
-    resultado.update(verifica_metadados(dados))
-    resultado['orbital']        = verifica_orbital(dados.get('telemetry', {}).get('orbital', {}))
-    resultado['power']          = verifica_power(dados.get('telemetry', {}).get('power', {}))
-    resultado['thermal']        = verifica_thermal(dados.get('telemetry', {}).get('thermal', {}))
-    resultado['propulsion']     = verifica_propulsion(dados.get('telemetry', {}).get('propulsion', {}))
-    resultado['communications'] = verifica_communications(dados.get('telemetry', {}).get('communications', {}))
-    resultado['payload_sensors'] = verifica_payload_sensors(
+    payload_res = {}
+    metadados = verifica_metadados(dados)
+    payload_res['orbital']        = verifica_orbital(dados.get('telemetry', {}).get('orbital', {}))
+    payload_res['power']          = verifica_power(dados.get('telemetry', {}).get('power', {}))
+    payload_res['thermal']        = verifica_thermal(dados.get('telemetry', {}).get('thermal', {}))
+    payload_res['propulsion']     = verifica_propulsion(dados.get('telemetry', {}).get('propulsion', {}))
+    payload_res['communications'] = verifica_communications(dados.get('telemetry', {}).get('communications', {}))
+    payload_res['payload_sensors'] = verifica_payload_sensors(
         dados.get('payload_sensors', {}),
-        resultado['orbital']['latitude']
+        payload_res['orbital']['latitude']
     )
-    resultado['diagnostics']    = verifica_diagnostics(dados.get('diagnostics', {}))
-    return resultado
+    payload_res['diagnostics']    = verifica_diagnostics(dados.get('diagnostics', {}))
+    json_payload = json.dumps(payload_res)
+    
+    return (tuple(metadados.values()), json_payload)
 
 
 # ---------------------------------------------------------------------------

@@ -1,870 +1,314 @@
-2026-02-20T10:32:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.7345)
-2026-02-20T10:32:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2693.6
-2026-02-20T10:32:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2603.92
-2026-02-20T10:32:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=50.7498)
-2026-02-20T10:32:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.658)
-2026-02-20T10:32:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2693.0
-2026-02-20T10:32:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2604.71
-2026-02-20T10:32:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=50.4799)
-2026-02-20T10:32:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.8895)
-2026-02-20T10:32:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2693.7
-2026-02-20T10:32:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2605.24
-2026-02-20T10:32:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=50.1499)
-2026-02-20T10:32:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.2699)
-2026-02-20T10:32:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2693.6
-2026-02-20T10:32:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2605.78
-2026-02-20T10:32:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=50.302)
-2026-02-20T10:32:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.9659)
-2026-02-20T10:32:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.4
-2026-02-20T10:32:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2606.35
-2026-02-20T10:32:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=50.5207)
-2026-02-20T10:32:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.6824)
-2026-02-20T10:32:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2693.2
-2026-02-20T10:32:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2606.75
-2026-02-20T10:32:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=50.7829)
-2026-02-20T10:32:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.8335)
-2026-02-20T10:32:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.0
-2026-02-20T10:32:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2607.66
-2026-02-20T10:32:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=50.3305)
-2026-02-20T10:32:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.0616)
-2026-02-20T10:32:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.4
-2026-02-20T10:32:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2608.48
-2026-02-20T10:32:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=50.0975)
-2026-02-20T10:32:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.7891)
-2026-02-20T10:32:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2695.0
-2026-02-20T10:32:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2608.89
-2026-02-20T10:32:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.7587)
-2026-02-20T10:32:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.6523)
-2026-02-20T10:32:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2695.2
-2026-02-20T10:32:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2609.71
-2026-02-20T10:32:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.7879)
-2026-02-20T10:32:11 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.6904)
-2026-02-20T10:32:11 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.7
-2026-02-20T10:32:11 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2610.5
-2026-02-20T10:32:11 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:11 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.4182)
-2026-02-20T10:32:12 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.2152)
-2026-02-20T10:32:12 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2695.1
-2026-02-20T10:32:12 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2611.01
-2026-02-20T10:32:12 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:12 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.5587)
-2026-02-20T10:32:13 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.5535)
-2026-02-20T10:32:13 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2695.0
-2026-02-20T10:32:13 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2611.91
-2026-02-20T10:32:13 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:13 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.5106)
-2026-02-20T10:32:14 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.9609)
-2026-02-20T10:32:14 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.3
-2026-02-20T10:32:14 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2612.23
-2026-02-20T10:32:14 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:14 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.0299)
-2026-02-20T10:32:15 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.1088)
-2026-02-20T10:32:15 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.2
-2026-02-20T10:32:15 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2612.63
-2026-02-20T10:32:15 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:15 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.5012)
-2026-02-20T10:32:16 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.7235)
-2026-02-20T10:32:16 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.4
-2026-02-20T10:32:16 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2613.39
-2026-02-20T10:32:16 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:16 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.3274)
-2026-02-20T10:32:17 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.9868)
-2026-02-20T10:32:17 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2695.1
-2026-02-20T10:32:17 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2613.76
-2026-02-20T10:32:17 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:17 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.9554)
-2026-02-20T10:32:18 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.0606)
-2026-02-20T10:32:18 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.6
-2026-02-20T10:32:18 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2614.53
-2026-02-20T10:32:18 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:18 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=49.186)
-2026-02-20T10:32:19 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.4071)
-2026-02-20T10:32:19 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.8
-2026-02-20T10:32:19 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2615.39
-2026-02-20T10:32:19 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:19 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.7381)
-2026-02-20T10:32:20 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.4629)
-2026-02-20T10:32:20 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2694.8
-2026-02-20T10:32:20 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2615.95
-2026-02-20T10:32:20 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:20 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.5974)
-2026-02-20T10:32:21 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.9682)
-2026-02-20T10:32:21 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2696.5
-2026-02-20T10:32:21 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2616.66
-2026-02-20T10:32:21 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:21 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.1827)
-2026-02-20T10:32:22 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.4448)
-2026-02-20T10:32:22 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2696.9
-2026-02-20T10:32:22 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2617.16
-2026-02-20T10:32:22 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:22 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.5814)
-2026-02-20T10:32:23 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.4037)
-2026-02-20T10:32:23 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2697.7
-2026-02-20T10:32:23 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2617.84
-2026-02-20T10:32:23 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:23 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.2392)
-2026-02-20T10:32:24 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.4143)
-2026-02-20T10:32:24 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2697.1
-2026-02-20T10:32:24 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2618.21
-2026-02-20T10:32:24 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:24 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.1657)
-2026-02-20T10:32:25 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.1315)
-2026-02-20T10:32:25 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2698.0
-2026-02-20T10:32:25 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2618.54
-2026-02-20T10:32:25 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:25 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.4791)
-2026-02-20T10:32:26 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.9998)
-2026-02-20T10:32:26 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2696.9
-2026-02-20T10:32:26 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2619.09
-2026-02-20T10:32:26 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:26 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.9098)
-2026-02-20T10:32:27 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.2691)
-2026-02-20T10:32:27 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2697.9
-2026-02-20T10:32:27 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2619.85
-2026-02-20T10:32:27 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:27 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.4215)
-2026-02-20T10:32:28 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.3525)
-2026-02-20T10:32:28 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2698.6
-2026-02-20T10:32:28 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2620.79
-2026-02-20T10:32:28 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:28 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.0911)
-2026-02-20T10:32:29 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.8538)
-2026-02-20T10:32:29 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2698.9
-2026-02-20T10:32:29 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2621.04
-2026-02-20T10:32:29 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:29 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=48.017)
-2026-02-20T10:32:30 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.9283)
-2026-02-20T10:32:30 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2698.8
-2026-02-20T10:32:30 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2621.59
-2026-02-20T10:32:30 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:30 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.56)
-2026-02-20T10:32:31 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.7079)
-2026-02-20T10:32:31 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2700.8
-2026-02-20T10:32:31 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2622.03
-2026-02-20T10:32:31 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:31 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.9002)
-2026-02-20T10:32:32 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=19.7808)
-2026-02-20T10:32:32 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2699.9
-2026-02-20T10:32:32 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2622.67
-2026-02-20T10:32:32 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:32 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.6924)
-2026-02-20T10:32:33 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.0178)
-2026-02-20T10:32:33 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2699.6
-2026-02-20T10:32:33 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2622.89
-2026-02-20T10:32:33 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:33 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.4417)
-2026-02-20T10:32:34 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.4241)
-2026-02-20T10:32:34 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2699.4
-2026-02-20T10:32:34 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2623.54
-2026-02-20T10:32:34 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:34 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.2432)
-2026-02-20T10:32:35 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.6893)
-2026-02-20T10:32:35 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2700.6
-2026-02-20T10:32:35 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2624.17
-2026-02-20T10:32:35 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:35 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.0292)
-2026-02-20T10:32:36 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.3109)
-2026-02-20T10:32:36 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2700.6
-2026-02-20T10:32:36 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2624.7
-2026-02-20T10:32:36 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:36 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.7205)
-2026-02-20T10:32:37 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.6947)
-2026-02-20T10:32:37 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2700.7
-2026-02-20T10:32:37 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2625.42
-2026-02-20T10:32:37 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:37 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.8398)
-2026-02-20T10:32:38 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.0756)
-2026-02-20T10:32:38 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2701.8
-2026-02-20T10:32:38 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2625.73
-2026-02-20T10:32:38 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:38 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.1085)
-2026-02-20T10:32:39 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.2847)
-2026-02-20T10:32:39 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2702.2
-2026-02-20T10:32:39 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2626.51
-2026-02-20T10:32:39 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:39 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.2199)
-2026-02-20T10:32:40 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.5281)
-2026-02-20T10:32:40 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2703.5
-2026-02-20T10:32:40 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2627.18
-2026-02-20T10:32:40 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:40 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.7128)
-2026-02-20T10:32:41 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.1392)
-2026-02-20T10:32:41 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2704.0
-2026-02-20T10:32:41 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2627.43
-2026-02-20T10:32:41 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:41 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.4533)
-2026-02-20T10:32:42 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.1311)
-2026-02-20T10:32:42 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2704.0
-2026-02-20T10:32:42 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2628.01
-2026-02-20T10:32:42 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:42 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.0248)
-2026-02-20T10:32:43 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.2375)
-2026-02-20T10:32:43 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2705.5
-2026-02-20T10:32:43 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2628.6
-2026-02-20T10:32:43 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:43 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.2611)
-2026-02-20T10:32:44 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.0575)
-2026-02-20T10:32:44 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2706.8
-2026-02-20T10:32:44 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2629.16
-2026-02-20T10:32:44 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:44 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.401)
-2026-02-20T10:32:45 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.56)
-2026-02-20T10:32:45 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2707.8
-2026-02-20T10:32:45 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2629.65
-2026-02-20T10:32:45 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:45 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.4931)
-2026-02-20T10:32:46 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.9877)
-2026-02-20T10:32:46 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2708.9
-2026-02-20T10:32:46 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2630.13
-2026-02-20T10:32:46 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:46 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.2626)
-2026-02-20T10:32:47 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.672)
-2026-02-20T10:32:47 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2709.1
-2026-02-20T10:32:47 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2630.4
-2026-02-20T10:32:47 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:47 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.8784)
-2026-02-20T10:32:48 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.8836)
-2026-02-20T10:32:48 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2710.0
-2026-02-20T10:32:48 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2631.11
-2026-02-20T10:32:48 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:48 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.2866)
-2026-02-20T10:32:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.9204)
-2026-02-20T10:32:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2710.6
-2026-02-20T10:32:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2631.48
-2026-02-20T10:32:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.2716)
-2026-02-20T10:32:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.8096)
-2026-02-20T10:32:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2711.6
-2026-02-20T10:32:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2631.93
-2026-02-20T10:32:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.8633)
-2026-02-20T10:32:51 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.4438)
-2026-02-20T10:32:51 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2711.6
-2026-02-20T10:32:51 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2632.19
-2026-02-20T10:32:51 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:51 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.7242)
-2026-02-20T10:32:52 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.3144)
-2026-02-20T10:32:52 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2713.1
-2026-02-20T10:32:52 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2632.6
-2026-02-20T10:32:52 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:52 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.1535)
-2026-02-20T10:32:53 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.753)
-2026-02-20T10:32:53 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2714.7
-2026-02-20T10:32:53 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2633.44
-2026-02-20T10:32:53 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:53 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.2137)
-2026-02-20T10:32:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.1554)
-2026-02-20T10:32:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2714.9
-2026-02-20T10:32:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2633.78
-2026-02-20T10:32:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.1681)
-2026-02-20T10:32:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.9236)
-2026-02-20T10:32:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2714.4
-2026-02-20T10:32:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2634.46
-2026-02-20T10:32:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.8937)
-2026-02-20T10:32:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=20.9992)
-2026-02-20T10:32:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2713.4
-2026-02-20T10:32:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2634.99
-2026-02-20T10:32:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.918)
-2026-02-20T10:32:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.4213)
-2026-02-20T10:32:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2713.9
-2026-02-20T10:32:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2635.34
-2026-02-20T10:32:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.1979)
-2026-02-20T10:32:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.8914)
-2026-02-20T10:32:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2714.2
-2026-02-20T10:32:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2636.23
-2026-02-20T10:32:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.8735)
-2026-02-20T10:32:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.6429)
-2026-02-20T10:32:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2714.6
-2026-02-20T10:32:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2636.65
-2026-02-20T10:32:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:32:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.2993)
-2026-02-20T10:33:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.6161)
-2026-02-20T10:33:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2714.9
-2026-02-20T10:33:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2636.85
-2026-02-20T10:33:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.1399)
-2026-02-20T10:33:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=22.0136)
-2026-02-20T10:33:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2715.9
-2026-02-20T10:33:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2637.22
-2026-02-20T10:33:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.6214)
-2026-02-20T10:33:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=22.2276)
-2026-02-20T10:33:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2715.7
-2026-02-20T10:33:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2637.64
-2026-02-20T10:33:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.5924)
-2026-02-20T10:33:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=22.4294)
-2026-02-20T10:33:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2715.9
-2026-02-20T10:33:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2638.46
-2026-02-20T10:33:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.1833)
-2026-02-20T10:33:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=22.3619)
-2026-02-20T10:33:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2717.0
-2026-02-20T10:33:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2639.43
-2026-02-20T10:33:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.3341)
-2026-02-20T10:33:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=22.1668)
-2026-02-20T10:33:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2717.7
-2026-02-20T10:33:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2639.87
-2026-02-20T10:33:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.7268)
-2026-02-20T10:33:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=21.8626)
-2026-02-20T10:33:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2717.4
-2026-02-20T10:33:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2640.33
-2026-02-20T10:33:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=47.3504)
-2026-02-20T10:33:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=22.2295)
-2026-02-20T10:33:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2717.9
-2026-02-20T10:33:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2641.05
-2026-02-20T10:33:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.9884)
-2026-02-20T10:33:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=22.6652)
-2026-02-20T10:33:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2717.9
-2026-02-20T10:33:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2641.68
-2026-02-20T10:33:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:33:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=46.8155)
-2026-02-20T10:34:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.5604)
-2026-02-20T10:34:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2767.7
-2026-02-20T10:34:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2703.95
-2026-02-20T10:34:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:34:54 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.7075)
-2026-02-20T10:34:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.4672)
-2026-02-20T10:34:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2767.3
-2026-02-20T10:34:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2704.54
-2026-02-20T10:34:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:34:55 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.3332)
-2026-02-20T10:34:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.4217)
-2026-02-20T10:34:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2767.3
-2026-02-20T10:34:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2705.17
-2026-02-20T10:34:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:34:56 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.0308)
-2026-02-20T10:34:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.2351)
-2026-02-20T10:34:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2766.7
-2026-02-20T10:34:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2706.05
-2026-02-20T10:34:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:34:57 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.1696)
-2026-02-20T10:34:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.333)
-2026-02-20T10:34:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2767.4
-2026-02-20T10:34:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2706.3
-2026-02-20T10:34:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:34:58 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.0965)
-2026-02-20T10:34:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.6674)
-2026-02-20T10:34:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2765.8
-2026-02-20T10:34:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2706.71
-2026-02-20T10:34:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:34:59 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=51.7335)
-2026-02-20T10:35:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.6552)
-2026-02-20T10:35:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2766.8
-2026-02-20T10:35:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2707.37
-2026-02-20T10:35:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:00 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=51.7312)
-2026-02-20T10:35:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.6518)
-2026-02-20T10:35:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2768.4
-2026-02-20T10:35:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2708.12
-2026-02-20T10:35:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:01 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.2119)
-2026-02-20T10:35:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.2936)
-2026-02-20T10:35:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2766.9
-2026-02-20T10:35:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2708.42
-2026-02-20T10:35:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:02 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=51.8808)
-2026-02-20T10:35:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.2985)
-2026-02-20T10:35:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2766.8
-2026-02-20T10:35:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2709.36
-2026-02-20T10:35:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.165)
-2026-02-20T10:35:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.2344)
-2026-02-20T10:35:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2767.1
-2026-02-20T10:35:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2709.79
-2026-02-20T10:35:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:04 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=51.9778)
-2026-02-20T10:35:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=25.8407)
-2026-02-20T10:35:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2767.3
-2026-02-20T10:35:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2710.73
-2026-02-20T10:35:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:05 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=51.8581)
-2026-02-20T10:35:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=25.4305)
-2026-02-20T10:35:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2768.6
-2026-02-20T10:35:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2711.5
-2026-02-20T10:35:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:06 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.201)
-2026-02-20T10:35:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=25.5662)
-2026-02-20T10:35:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2769.6
-2026-02-20T10:35:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2711.9
-2026-02-20T10:35:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:07 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.2208)
-2026-02-20T10:35:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=25.7514)
-2026-02-20T10:35:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2771.3
-2026-02-20T10:35:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2712.17
-2026-02-20T10:35:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:08 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.1373)
-2026-02-20T10:35:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=26.1765)
-2026-02-20T10:35:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 2772.5
-2026-02-20T10:35:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=Integridade Falhou: altitude_km deve ser positivo: -2713.17
-2026-02-20T10:35:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=0.0)
-2026-02-20T10:35:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=Integridade Falhou: ice_thickness_m reportado fora das regiões polares (lat=52.5882)
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:36:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:00 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:00 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:00 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:00 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:00 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:01 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:02 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:13 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:14 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:15 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:18 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:19 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:20 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:21 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:22 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:23 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:24 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:25 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:26 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:27 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:28 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:29 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
-2026-02-20T10:37:30 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T14:26:39 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T14:26:39 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T14:26:40 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T14:26:41 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T14:26:41 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T14:26:41 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T14:26:41 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T14:26:41 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T14:26:41 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:22:26 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4460.7
+2026-02-20T15:22:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4461.2
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4462.3
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:22:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=can only concatenate tuple (not "dict") to tuple
+2026-02-20T15:24:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4556.6
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4557.9
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4557.7
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:10 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=dump() missing 1 required positional argument: 'fp'
+2026-02-20T15:24:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4613.8
+2026-02-20T15:24:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4615.4
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-01 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4615.5
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-03 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-04 | erro=list indices must be integers or slices, not str
+2026-02-20T15:24:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-05 | erro=list indices must be integers or slices, not str
+2026-02-20T15:26:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id={'orbital': {'latitude': 27.0062, 'longitude': 5.6608, 'altitude_km': 600.0, 'velocity_kms': 7.684}, 'power': {'battery_level_pct': 100.0, 'solar_voltage_v': 0.0, 'current_draw_a': 5.32}, 'thermal': {'core_temp_c': -55.9, 'external_temp_c': -42.5, 'cooling_active': False}, 'propulsion': {'fuel_remaining_kg': 97.18, 'thruster_status': 'OK'}, 'communications': {'signal_strength_dbm': -90, 'packet_loss_pct': 0.25, 'uplink_active': True}, 'payload_sensors': {'soil_moisture_index': 0.101, 'surface_water_area_sqkm': 24034, 'algae_bloom_index': 7.5, 'sea_surface_salinity_psu': 39.26, 'ice_thickness_m': None}, 'diagnostics': {'cpu_usage_pct': 17, 'memory_usage_mb': 2013, 'last_error_code': 0}}
+2026-02-20T15:26:03 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4720.8
+2026-02-20T15:26:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id={'orbital': {'latitude': 11.9232, 'longitude': 178.394, 'altitude_km': 1.0, 'velocity_kms': 7.734}, 'power': {'battery_level_pct': 0.0, 'solar_voltage_v': 32.5, 'current_draw_a': 2.51}, 'thermal': {'core_temp_c': 199.0, 'external_temp_c': -101.9, 'cooling_active': True}, 'propulsion': {'fuel_remaining_kg': 0.0, 'thruster_status': 'ERROR'}, 'communications': {'signal_strength_dbm': -110, 'packet_loss_pct': 20.78, 'uplink_active': False}, 'payload_sensors': {'soil_moisture_index': None, 'surface_water_area_sqkm': 0, 'algae_bloom_index': 57.3, 'sea_surface_salinity_psu': 37.26, 'ice_thickness_m': None}, 'diagnostics': {'cpu_usage_pct': 44, 'memory_usage_mb': 678, 'last_error_code': 503}}
+2026-02-20T15:26:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id={'orbital': {'latitude': 0.0, 'longitude': 0.0, 'altitude_km': 605.0, 'velocity_kms': 7.693}, 'power': {'battery_level_pct': 100.0, 'solar_voltage_v': 0.0, 'current_draw_a': 6.61}, 'thermal': {'core_temp_c': -29.9, 'external_temp_c': 32.3, 'cooling_active': False}, 'propulsion': {'fuel_remaining_kg': 47.3, 'thruster_status': 'OK'}, 'communications': {'signal_strength_dbm': -65, 'packet_loss_pct': 0.35, 'uplink_active': True}, 'payload_sensors': {'soil_moisture_index': 0.197, 'surface_water_area_sqkm': 7366, 'algae_bloom_index': 52.9, 'sea_surface_salinity_psu': 36.27, 'ice_thickness_m': None}, 'diagnostics': {'cpu_usage_pct': 72, 'memory_usage_mb': 3637, 'last_error_code': 0}}
+2026-02-20T15:26:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id={'orbital': {'latitude': 22.5531, 'longitude': 162.2103, 'altitude_km': 610.0, 'velocity_kms': 7.727}, 'power': {'battery_level_pct': 100.0, 'solar_voltage_v': 0.0, 'current_draw_a': 4.82}, 'thermal': {'core_temp_c': -31.6, 'external_temp_c': -103.8, 'cooling_active': False}, 'propulsion': {'fuel_remaining_kg': 127.18, 'thruster_status': 'OK'}, 'communications': {'signal_strength_dbm': -81, 'packet_loss_pct': 0.1, 'uplink_active': True}, 'payload_sensors': {'soil_moisture_index': 0.76, 'surface_water_area_sqkm': 18882, 'algae_bloom_index': 78.1, 'sea_surface_salinity_psu': 35.73, 'ice_thickness_m': None}, 'diagnostics': {'cpu_usage_pct': 26, 'memory_usage_mb': 2976, 'last_error_code': 0}}
+2026-02-20T15:26:09 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4730.9
+2026-02-20T15:27:24 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4852.7
+2026-02-20T15:27:24 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4852.4
+2026-02-20T15:28:23 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 4919.0
+2026-02-20T15:39:45 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 5836.7
+2026-02-20T15:39:45 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 5838.5
+2026-02-20T15:40:13 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 5877.7
+2026-02-20T15:40:33 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 5907.2
+2026-02-20T15:40:33 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 5908.3
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:16 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6036.1
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:16 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6035.8
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:16 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6037.2
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:16 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:17 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6039.3
+2026-02-20T15:42:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:17 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:45 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:45 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:45 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:46 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6080.3
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:46 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6080.0
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:46 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6079.9
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:46 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:47 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6080.8
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:47 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6081.3
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:47 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6082.1
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:47 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:48 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6083.6
+2026-02-20T15:42:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:48 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6082.9
+2026-02-20T15:42:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:48 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6083.8
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6083.2
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:49 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6082.6
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:49 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6083.4
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6083.7
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:50 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:50 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6084.2
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:51 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6086.0
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:51 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6085.6
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:51 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:52 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6085.7
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:52 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6088.0
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:42:52 | ERROR    | __main__ | Mensagem descartada | topic=curso/smartaqua/telemetry/SAT-AQUA-02 | erro=Integridade Falhou: core_temp_c fora do domínio [-100, 200]: 6087.5
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:42:52 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:03 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:04 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:05 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:06 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:07 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:08 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:09 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:10 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:11 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
+2026-02-20T15:44:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-01
+2026-02-20T15:44:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-02
+2026-02-20T15:44:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-03
+2026-02-20T15:44:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-04
+2026-02-20T15:44:12 | INFO     | __main__ | Mensagem processada com sucesso | satellite_id=SAT-AQUA-05
