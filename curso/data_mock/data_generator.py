@@ -36,7 +36,7 @@ def generate_payload(sat_id, state):
     # Comportamentos baseados na saúde
     if state["status"] in ["OPTIMAL", "MAINTENANCE"]:
         state["bat"] = min(100.0, state["bat"] + random.uniform(0.1, 0.5))
-        state["temp"] = state["temp"] + random.gauss(0, 0.2)
+        state["temp"] = max(-99.0, min(199.0, state["temp"] + random.gauss(0, 0.2)))
         state["fuel"] = max(0.0, state["fuel"] - random.uniform(0.001, 0.01))
         error_code = 0
         status_flag = "OK"
@@ -44,7 +44,7 @@ def generate_payload(sat_id, state):
         
     elif state["status"] == "DEGRADING":
         state["bat"] = max(0.0, state["bat"] - random.uniform(0.1, 0.8))
-        state["temp"] = state["temp"] + random.gauss(0.5, 0.8)
+        state["temp"] = max(-99.0, min(199.0, state["temp"] + random.gauss(0.5, 0.8)))
         state["fuel"] = max(0.0, state["fuel"] - random.uniform(0.01, 0.05))
         error_code = random.choice([0, 104, 201, 305])
         status_flag = random.choice(["OK", "WARNING"])
@@ -68,11 +68,11 @@ def generate_payload(sat_id, state):
                 "latitude": round(state["lat"], 4),
                 "longitude": round(state["lon"], 4),
                 "altitude_km": round(state["alt"], 2),
-                "velocity_kms": round(random.gauss(7.66, 0.05) if state["status"] != "CRITICAL" else random.gauss(7.50, 0.2), 3)
+                "velocity_kms": round(max(0.001, random.gauss(7.66, 0.05) if state["status"] != "CRITICAL" else random.gauss(7.50, 0.2)), 3)
             },
             "power": {
                 "battery_level_pct": round(state["bat"], 1),
-                "solar_voltage_v": round(random.gauss(32.0, 1.5) if state["bat"] < 100 else 0.0, 2),
+                "solar_voltage_v": round(max(0.0, random.gauss(32.0, 1.5)) if state["bat"] < 100 else 0.0, 2),
                 "current_draw_a": round(random.uniform(2.5, 8.5), 2)
             },
             "thermal": {
@@ -94,7 +94,7 @@ def generate_payload(sat_id, state):
             "soil_moisture_index": round(random.uniform(0.0, 1.0), 3) if status_flag != "ERROR" else None,
             "surface_water_area_sqkm": random.randint(1000, 50000) if status_flag == "OK" else 0,
             "algae_bloom_index": round(random.uniform(0.0, 100.0), 1),
-            "sea_surface_salinity_psu": round(random.gauss(35.0, 2.0), 2),
+            "sea_surface_salinity_psu": round(max(0.0, random.gauss(35.0, 2.0)), 2),
             "ice_thickness_m": round(random.uniform(0.0, 3.5), 2) if abs(state["lat"]) > 60 else None
         },
         "diagnostics": {
