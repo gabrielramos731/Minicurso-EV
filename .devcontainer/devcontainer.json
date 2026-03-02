@@ -33,7 +33,7 @@
 
     // Automação: Roda assim que o container é criado.
     // O aluno não precisa lembrar de dar pip install.
-    "postCreateCommand": "pip install --user -r src/requirements.txt",
+    "postCreateCommand": "pip install --user -r curso/requirements.txt",
 
     // Usuário remoto (o container python da Microsoft já usa 'vscode' ou 'root')
     "remoteUser": "vscode"

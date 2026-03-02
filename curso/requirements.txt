@@ -1,0 +1,3 @@
+aiomqtt
+asyncpg
+dotenv

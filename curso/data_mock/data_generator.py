@@ -12,8 +12,8 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 MQTT_BROKER = os.getenv("AWS_PUBLIC_IP")
-MQTT_PORT = 1883
-MQTT_TOPIC = "curso/smartaqua/telemetry"
+MQTT_PORT = int(os.getenv("MQTT_PORT"))
+MQTT_TOPIC = "curso/smartaqua/telemetry"    
 
 # Constelação Smart-Aqua com 6 satélites em estados variados
 satellites_state = {

@@ -4,7 +4,6 @@ from logger import get_logger
 
 log = get_logger(__name__)
 
-
 def parse_payload(message):
     try:
         payload = message.decode()

@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   timescaledb:
     image: timescale/timescaledb:latest-pg17
@@ -9,8 +7,9 @@ services:
       POSTGRES_DB: minicurso_ev 
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin
+      POSTGRES_PORT: 5432
     ports:
-      - "5432:5432"
+      - "5434:5432"
     volumes:
       - timescale_data:/var/lib/postgresql/data
     networks:
@@ -48,7 +47,6 @@ services:
       - ev-network
     restart: unless-stopped
 
-  # entender melhor como funciona esse container de aplicação do codespaces
   app:
     image: mcr.microsoft.com/devcontainers/python:1-3.11-bullseye
     volumes:
@@ -57,10 +55,16 @@ services:
     command: sleep infinity # Mantém o container ligado para o aluno usar
     networks:
       - ev-network
-    # Variáveis de ambiente úteis para o script do aluno
+    # Variáveis de ambiente para o container/Codespace
+    # Para rodar localmente, use o arquivo .env na raiz do projeto
     environment:
-      - TIMESCALE_HOST=timescaledb
-
+      - AWS_PUBLIC_IP=56.126.34.58
+      - MQTT_PORT=1883
+      - POSTGRES_HOST=timescaledb
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=minicurso_ev
 volumes:
   timescale_data:
   grafana_data:

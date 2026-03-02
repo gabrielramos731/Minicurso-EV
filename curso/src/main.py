@@ -1,4 +1,7 @@
+import os
 import asyncio
+from dotenv import load_dotenv
+load_dotenv()
 import transform
 import db_loader
 from aiomqtt import Client
@@ -9,9 +12,8 @@ log = get_logger(__name__)
 async def main():
     await db_loader.init_pool()
     mini_batch = []
-
     try:
-        async with Client("56.126.34.58") as client:
+        async with Client(os.getenv('AWS_PUBLIC_IP', "56.126.34.58")) as client:
             await client.subscribe('curso/smartaqua/telemetry/+')
             async for message in client.messages:
 
@@ -19,12 +21,12 @@ async def main():
                 try:
                     leitura = transform.parse_payload(message.payload)
                     log.info("Mensagem processada com sucesso | satellite_id=%s", leitura[0][1])
+
                     mini_batch.append(leitura)
 
-                    # CARGA PARA O BANCO DE DADOS
-                    if len(mini_batch) >= 15:
-                        await db_loader.insert_minibatch(mini_batch)
-                        mini_batch.clear()
+                    #TODO: Extração contínua e alocação em mini batch
+
+                    
 
                 except (ValueError, TypeError, KeyError) as e:
                     log.error("Mensagem descartada | topic=%s | erro=%s", message.topic, e)
